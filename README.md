@@ -1,2 +1,2 @@
-# Liouville26.github.io
+# liouville26.github.io
 My personal web.
