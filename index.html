@@ -2,9 +2,15 @@
 <html>
 <head>
     <title>我的个人主页</title>
+    <style>
+        body { margin: 0; padding: 20px; }
+        /* 嵌入 README，铺满页面 */
+        iframe { width: 100%; height: 800px; border: none; }
+    </style>
 </head>
 <body>
-    <h1>Hello, 这是我的 github.io 网站</h1>
-    <p>不再是单纯的 README 了</p>
+    <h1>我的个人主页</h1>
+    <!-- 👇 核心代码：自动加载根目录的 README.md -->
+    <iframe src="README.md"></iframe>
 </body>
 </html>
